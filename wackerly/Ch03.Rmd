@@ -1,0 +1,33 @@
+
+# Chapter 3: Discrete Random Variables and Their Probability Distributions {-}
+
+## 3.2 The Probability Distribution for a Discrete Random Variable {-}
+
+
+## 3.3 The Expected Value of a Random Variable or a Function of a Random Variable {-}
+
+
+## 3.4 The Binomial Probability Distribution {-}
+
+
+## 3.5 The Geometric Probability Distribution {-}
+
+
+## 3.6 The Negative Binomial Probability Distribution (Optional) {-}
+
+
+## 3.7 The Hypergeometric Probability Distribution {-}
+
+
+## 3.8 The Poisson Probability Distribution {-}
+
+
+## 3.9 Moments and Moment-Generating Functions {-}
+
+
+## 3.10 Probability-Generating Functions (Optional) {-}
+
+
+## 3.11 Tchebysheff’s Theorem {-}
+
+
