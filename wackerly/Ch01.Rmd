@@ -310,9 +310,9 @@ Maybe some day.
 
 ### 1.32 (Tschebysheff) {-}
 
-![](images/ex1.32.png)
+![](images/ex1.32.png){ style="width: 90%" .center}
 
-![](images/ex1.32-my-sol.jpg)
+![](images/ex1.32-my-sol.jpg){ style="width: 90%" .center}
 
 
 

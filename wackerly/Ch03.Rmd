@@ -3,11 +3,131 @@
 
 ## 3.2 The Probability Distribution for a Discrete Random Variable {-}
 
+### 3.6 {-}
+
+::: {.rmdbox}
+
+Five balls, numbered $1$, $2$, $3$, $4$, and $5$, are placed in an urn. Two balls are randomly selected from the five, and their numbers noted. Find the probability distribution for the following:
+
+a. The largest of the two sampled numbers
+
+b. The sum of the two sampled numbers
+
+:::
+
+* I consider all possible selections:
+
+  ![](images/ex3.6.jpg){ style="width: 90%" .center}
+
+* Later, I will look into the distribution for the maximum, the minimum etc.
+
+
+### 3.7 {-}
+
+::: {.rmdbox}
+
+Each of three balls are randomly placed into one of three bowls. Find the probability distribution for $Y ={}$ the number of empty bowls.
+
+:::
+
+* There are $3^3 = 27$ possible placements.
+
+* For $0$ empty bowls: the number of permutations of $123$: $P_3 = 6$.
+
+* For $1$ empty bowl: 
+
+  1. Choose bowl to be empty: $3$.
+  
+  1. Choose $2$ balls to be together: $3$.
+  
+  1. Choose one of the nonempty bowls to have $2$ balls: $2$.
+  
+  For a total of $18$. 
+  
+* For $2$ empty bowls: $3$
+
+* Distribution:
+  
+  $$
+  \begin{array}{|r|r|}
+  \hline
+  y 	&  P(Y=y) \\\hline
+  0 	&  2/9 	  \\
+  1 	&  2/3 	  \\
+  2 	&  1/9 	  \\\hline
+  \end{array}
+  $$
+
 
 ## 3.3 The Expected Value of a Random Variable or a Function of a Random Variable {-}
 
+### 3.29 {-}
+
+::: {.rmdbox}
+
+If $Y$ is a discrete random variable that assigns positive probabilities to only the positive integers, show that
+$$
+E(Y) = \sum_{k=1}^\infty P(Y \geq k)
+$$
+
+:::
+
+![](images/ex3.29.jpg){ style="width: 90%" .center}
+
 
 ## 3.4 The Binomial Probability Distribution {-}
+
+### 3.63 {-}
+
+::: {.rmdbox}
+
+![](images/ex3.63-text.png){ style="width: 90%" .center}
+
+:::
+
+#### (a) {-}
+
+![](images/ex3.63-a.jpg){ style="width: 90%" .center}
+
+So we have the recursion
+$$
+p(y) = p(y - 1) \cdot \frac{(n - y + 1)p}{yq} \quad \text{for } y > 0
+$$
+
+#### (b) {-}
+
+![](images/ex3.63-b.jpg){ style="width: 90%" .center}
+
+
+#### (c) {-}
+
+![](images/ex3.63-c1.jpg){ style="width: 90%" .center}
+
+![](images/ex3.63-c2.jpg){ style="width: 90%" .center}
+
+#### (d) {-}
+
+
+### 3.64 {-}
+
+
+### 3.65 {-}
+
+
+### More about the binomial distribution {-}
+
+#### Exact test {-}
+
+* Exact test: https://en.wikipedia.org/wiki/Fisher%27s_exact_test
+
+
+#### Binomial test and $\chi$-squared test {-}
+
+* $\chi$-squared test: https://en.wikipedia.org/wiki/Pearson%27s_chi-squared_test
+
+  > When the test is applied to a contingency table containing two rows and two columns, the test is equivalent to a Z-test of proportions.
+
+  That's why R shows the $\chi^2$ statistic for the binomial test!
 
 
 ## 3.5 The Geometric Probability Distribution {-}

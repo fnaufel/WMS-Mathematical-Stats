@@ -71,7 +71,7 @@ The idea is: if I already know the numbers of partitions of $k$-element sets, $0
 
 I can also define $B_n$ with another recurrence:
 
-![](images/bell-another.jpg){ style="width: 75%" .center}
+![](images/bell-another.jpg){ style="width: 90%" .center}
 
 But then I have to know the number of blocks in each partition, and I have to prove that both recurrences coincide. Maybe some day.
 
@@ -207,9 +207,9 @@ Then I found [this pdf](http://math.arizona.edu/~faris/combinatoricsweb/multinom
 
 My notes are below. 
 
-![](images/multinomial1.jpg)
+![](images/multinomial1.jpg){ style="width: 90%" .center}
 
-![](images/multinomial2.jpg)
+![](images/multinomial2.jpg){ style="width: 90%" .center}
 
 ### Stirling and multinomial numbers don't agree! {-}
 
@@ -266,35 +266,35 @@ In general, [multinomial numbers will consider all blocks distinguishable.]{.hl}
 
 ### 2.79 through 2.83 {-}
 
-![](images/ex2.79ff.jpg){ style="width: 75%" .center}
+![](images/ex2.79ff.jpg){ style="width: 90%" .center}
 
-![](images/ex2.82f.jpg){ style="width: 75%" .center}
+![](images/ex2.82f.jpg){ style="width: 90%" .center}
 
 
 ## 2.8 Laws of probability {-}
 
 ### 2.85 through 2.90 {-}
 
-![](images/ex2.85-90a.jpg){ style="width: 75%" .center}
+![](images/ex2.85-90a.jpg){ style="width: 90%" .center}
 
-![](images/ex2.85-90b.jpg){ style="width: 75%" .center}
+![](images/ex2.85-90b.jpg){ style="width: 90%" .center}
 
-![](images/ex2.85-90c.jpg){ style="width: 75%" .center}
+![](images/ex2.85-90c.jpg){ style="width: 90%" .center}
 
-![](images/ex2.85-90d.jpg){ style="width: 75%" .center}
+![](images/ex2.85-90d.jpg){ style="width: 90%" .center}
 
 
 ### 2.104 {-}
 
-![](images/ex2.104.jpg){ style="width: 75%" .center}
+![](images/ex2.104.jpg){ style="width: 90%" .center}
 
-![](images/ex2.104.visual.jpg){ style="width: 75%" .center}
+![](images/ex2.104.visual.jpg){ style="width: 90%" .center}
 
 ### Bonferroni's inequalities {-}
 
 See [Wikipedia](https://en.wikipedia.org/wiki/Boole%27s_inequality#Bonferroni_inequalities).
 
-![](images/bonferroni-inequalities.jpg){ style="width: 75%" .center}
+![](images/bonferroni-inequalities.jpg){ style="width: 90%" .center}
 
 Exercise 2.104 asks us to show a statement equivalent to
 $$
