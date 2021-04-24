@@ -107,11 +107,51 @@ $$
 
 #### (d) {-}
 
+See [item (c) above](#c).
+
 
 ### 3.64 {-}
 
+::: {.rmdbox}
+
+If there are $n$ trials in a binomial experiment and we observe $n_0$ successes, show that $P(Y = y_0)$ is maximized when $p = \frac{y_0}{n}$.
+
+:::
+
+![](images/ex3.64.jpg){ style="width: 90%" .center}
+
 
 ### 3.65 {-}
+
+::: {.rmdbox}
+
+The *maximum likelihood estimator* for $p$ is $\frac{Y}{n}$.
+
+a. Compute $E(Y/n)$.
+
+b. Compute $\text{Var}(Y/n)$. What happens to it as $n$ gets larger?
+
+:::
+
+#### (a) {-}
+
+$$
+E\left(\frac Y n\right) = \frac{E(Y)}{n} = \frac{np}{n} = p
+$$
+
+This means we have [an unbiased estimator for $p$.]{.hl}
+
+
+#### (b) {-}
+
+$$
+\text{Var}\left(\frac Y n\right) = \frac{\text{Var}(Y)}{n^2} = \frac{npq}{n^2} = 
+\frac{pq}{n}
+$$
+
+As $n$ gets larger, this tends to zero.
+
+In other words, [if I want to estimate $p$ in a binomial experiment, a larger number of trials will give me a smaller variance.]{.hl}
 
 
 ### More about the binomial distribution {-}
