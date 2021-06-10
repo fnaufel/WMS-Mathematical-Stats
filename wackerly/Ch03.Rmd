@@ -172,6 +172,25 @@ In other words, [if I want to estimate $p$ in a binomial experiment, a larger nu
 
 ## 3.5 The Geometric Probability Distribution {-}
 
+### 3.66 {-}
+
+
+### 3.71 {-}
+
+
+### 3.77 {-}
+
+
+### 3.85 {-}
+
+
+### 3.86 {-}
+
+
+### 3.87 {-}
+
+
+
 
 ## 3.6 The Negative Binomial Probability Distribution (Optional) {-}
 
